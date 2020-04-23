@@ -33,7 +33,7 @@ app.get('/', (req, res) => {
     res.json({"message": "Alhamdulillah Connect"});
 });
 
-require('./app/routes/botdata.routes.js') (app);
+require('./app/routes/kfc.routes.js') (app);
 
 // listen for requests
 app.listen(PORT,'0.0.0.0',() => {
