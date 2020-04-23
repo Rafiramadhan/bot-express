@@ -33,7 +33,11 @@ app.get('/', (req, res) => {
     res.json({"message": "Alhamdulillah Connect"});
 });
 
+<<<<<<< HEAD
 require('./app/routes/kfc.routes.js') (app);
+=======
+require('./app/routes/botdata.routes.js') (app);
+>>>>>>> b03c7ab392a61762d5b493079bed1375acc42208
 
 // listen for requests
 app.listen(PORT,'0.0.0.0',() => {
